@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 1.8rem;
+	text-align: center;
+	font-size: 0.76rem;
+	line-height: 1.8rem;
+	color: #333;
+	border-bottom: solid 2px #07ca61;
+}
+.header-left{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: none;
+	width: 1.24rem;
+	height: 1.8rem;
+	background: url(../img/arrow1.png) no-repeat center center;
+}
+.header-right{
+	position: absolute;
+	border: none;
+	background: none;
+	width: 3rem;
+	height: 100%;
+	right: 0;
+	top: 0;
+	text-align: center;
+	color: #6a6a6a;
+	font-size: 0.56rem;
+}
+.main-top{
+	width: 100%;
+	height: 3rem;
+	border-bottom: 0.4rem solid #ebebeb;
+	text-align: center;
+}
+.main-top h3{
+	font-size: 0.64rem;
+	padding-top: 0.6rem;
+	color: #333;
+}
+.main-top p{
+	font-size: 0.56rem;
+	color: #969696;
+	line-height: 0.92rem;
+}
+.main-top p span{
+	color: #f32f00;
+	line-height: 0.96rem;
+}
+.main{
+	width: 14.2rem;
+	height: 20.84rem;
+	padding: 0 0.4rem 0 0.4rem;
+}
+.main-lc1{
+	overflow: hidden;
+	width: 14.2rem;
+	height: 2.32rem;
+	border-bottom: 1px solid #dadada;
+}
+.main-lc1-left{
+	float: left;
+	text-indent: 0.58rem;
+	height: 2.32rem;
+	font-size: 0.48rem;
+	line-height: 2.32rem;
+	text-align: left;
+	color: #969696;
+	background: url(../img/clock1.png) no-repeat left center;
+}
+.main-lc1-right{
+	height: 2.32rem;
+	float: right;
+	font-size: 0.52rem;
+	line-height: 2.32rem;
+	text-align: right;
+	color: #07ca61;
+}
+.main-lc2{
+	width: 100%;
+	height: 1.76rem;
+	border-bottom: 1px solid #dadada;
+}
+.main-lc2-left{
+	float: left;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	
+	font-size: 0.64rem;
+	text-align: left;
+	color: #969696;
+}
+.main-lc2-right{
+	float: right;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	color: #333;
+	font-size: 0.64rem;
+	text-align: right;
+}
